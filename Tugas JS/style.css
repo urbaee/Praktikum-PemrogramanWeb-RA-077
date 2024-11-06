@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'josefin sans', sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff; 
+    background: transparent;
+    backdrop-filter: blur(20px);
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);  
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+form {
+    margin-top: 25px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #fafafa;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'josefin sans', sans-serif;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.hasil {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    background-color:aliceblue
+}
+
+.hasil p {
+    margin: 5px 0;
+    font-weight: bold;
+}

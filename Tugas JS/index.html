@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Javascript Kalkulator 077</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Nilai Mahasiswa</h1>
+        <p style="text-align: center; color: white;">by Rahmat Ganteng dengan NIM 077</p>
+        <form id="nilaiForm">
+            <label for="tugas">Input nilai tugas Anda:</label>
+            <input type="number" id="tugas" min="0" max="100" required><br>
+
+            <label for="uts">Input nilai UTS Anda:</label>
+            <input type="number" id="uts" min="0" max="100" required><br>
+
+            <label for="uas">Input nilai UAS Anda:</label>
+            <input type="number" id="uas" min="0" max="100" required><br>
+
+            <button type="button" onclick="hitungNilai()">Hitung Nilai</button>
+        </form>
+
+        <div id="hasil" class="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
